@@ -61,6 +61,7 @@
             this.Txtusuario.Name = "Txtusuario";
             this.Txtusuario.Size = new System.Drawing.Size(100, 20);
             this.Txtusuario.TabIndex = 2;
+            this.Txtusuario.TextChanged += new System.EventHandler(this.Txtusuario_TextChanged);
             // 
             // Txtsenha
             // 

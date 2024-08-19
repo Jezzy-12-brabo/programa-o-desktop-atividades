@@ -44,5 +44,10 @@ namespace WindowsFormsApp1
                 MessageBox.Show("Usuário/Senha Incorreta!");
             }
         }
+
+        private void Txtusuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,5 +29,33 @@ namespace WindowsFormsApp1
             FrmMain.Show();
             this.Hide();
         }
+
+        private void pequisaclientetext_TextChanged(object sender, EventArgs e)
+        {
+            string user = "Jesse";
+            string email = "jessebrabo57@gmail.com";
+
+            if (txtemailpesquisa.Text == user & txtemailpesquisa.Text == email)
+            {
+                MessageBox.Show("Usuário cadastrado!");
+                frmcadastrocliente FrmMain = new frmcadastrocliente();
+                FrmMain.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Usuário não cadastrado");
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

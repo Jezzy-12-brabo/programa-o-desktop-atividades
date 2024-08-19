@@ -34,21 +34,21 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.idclientetext = new System.Windows.Forms.TextBox();
-            this.emailtext = new System.Windows.Forms.TextBox();
-            this.nomeclientetext = new System.Windows.Forms.TextBox();
+            this.txtid = new System.Windows.Forms.TextBox();
+            this.txtemail = new System.Windows.Forms.TextBox();
+            this.txtnome = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.cidadetext = new System.Windows.Forms.TextBox();
+            this.txtcidade = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.celular2text = new System.Windows.Forms.MaskedTextBox();
-            this.celular1text = new System.Windows.Forms.MaskedTextBox();
-            this.datadenasimentotext = new System.Windows.Forms.MaskedTextBox();
-            this.cpftext = new System.Windows.Forms.MaskedTextBox();
+            this.btncadastrar = new System.Windows.Forms.Button();
+            this.btndeletar = new System.Windows.Forms.Button();
+            this.btnnovo = new System.Windows.Forms.Button();
+            this.txtcelular2 = new System.Windows.Forms.MaskedTextBox();
+            this.txtcelular1 = new System.Windows.Forms.MaskedTextBox();
+            this.txtdata = new System.Windows.Forms.MaskedTextBox();
+            this.txtcpf = new System.Windows.Forms.MaskedTextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -113,28 +113,28 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "cpf";
             // 
-            // idclientetext
+            // txtid
             // 
-            this.idclientetext.Location = new System.Drawing.Point(469, 36);
-            this.idclientetext.Name = "idclientetext";
-            this.idclientetext.Size = new System.Drawing.Size(100, 20);
-            this.idclientetext.TabIndex = 5;
-            this.idclientetext.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtid.Location = new System.Drawing.Point(469, 36);
+            this.txtid.Name = "txtid";
+            this.txtid.Size = new System.Drawing.Size(100, 20);
+            this.txtid.TabIndex = 5;
+            this.txtid.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // emailtext
+            // txtemail
             // 
-            this.emailtext.Location = new System.Drawing.Point(469, 113);
-            this.emailtext.Name = "emailtext";
-            this.emailtext.Size = new System.Drawing.Size(100, 20);
-            this.emailtext.TabIndex = 6;
+            this.txtemail.Location = new System.Drawing.Point(469, 113);
+            this.txtemail.Name = "txtemail";
+            this.txtemail.Size = new System.Drawing.Size(100, 20);
+            this.txtemail.TabIndex = 6;
             // 
-            // nomeclientetext
+            // txtnome
             // 
-            this.nomeclientetext.Location = new System.Drawing.Point(469, 61);
-            this.nomeclientetext.Name = "nomeclientetext";
-            this.nomeclientetext.Size = new System.Drawing.Size(100, 20);
-            this.nomeclientetext.TabIndex = 8;
-            this.nomeclientetext.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.txtnome.Location = new System.Drawing.Point(469, 61);
+            this.txtnome.Name = "txtnome";
+            this.txtnome.Size = new System.Drawing.Size(100, 20);
+            this.txtnome.TabIndex = 8;
+            this.txtnome.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label6
             // 
@@ -167,12 +167,12 @@
             this.label8.Text = "cidade";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // cidadetext
+            // txtcidade
             // 
-            this.cidadetext.Location = new System.Drawing.Point(469, 188);
-            this.cidadetext.Name = "cidadetext";
-            this.cidadetext.Size = new System.Drawing.Size(100, 20);
-            this.cidadetext.TabIndex = 14;
+            this.txtcidade.Location = new System.Drawing.Point(469, 188);
+            this.txtcidade.Name = "txtcidade";
+            this.txtcidade.Size = new System.Drawing.Size(100, 20);
+            this.txtcidade.TabIndex = 14;
             // 
             // label9
             // 
@@ -184,66 +184,69 @@
             this.label9.TabIndex = 15;
             this.label9.Text = "data nascimento";
             // 
-            // button1
+            // btncadastrar
             // 
-            this.button1.Location = new System.Drawing.Point(311, 268);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "cadastrar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btncadastrar.Location = new System.Drawing.Point(311, 268);
+            this.btncadastrar.Name = "btncadastrar";
+            this.btncadastrar.Size = new System.Drawing.Size(75, 23);
+            this.btncadastrar.TabIndex = 17;
+            this.btncadastrar.Text = "cadastrar";
+            this.btncadastrar.UseVisualStyleBackColor = true;
+            this.btncadastrar.Click += new System.EventHandler(this.btncadastrar_Click);
             // 
-            // button2
+            // btndeletar
             // 
-            this.button2.Location = new System.Drawing.Point(437, 268);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "deletar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btndeletar.Location = new System.Drawing.Point(437, 268);
+            this.btndeletar.Name = "btndeletar";
+            this.btndeletar.Size = new System.Drawing.Size(75, 23);
+            this.btndeletar.TabIndex = 18;
+            this.btndeletar.Text = "deletar";
+            this.btndeletar.UseVisualStyleBackColor = true;
+            this.btndeletar.Click += new System.EventHandler(this.btndeletar_Click);
             // 
-            // button3
+            // btnnovo
             // 
-            this.button3.Location = new System.Drawing.Point(550, 268);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 19;
-            this.button3.Text = "novo";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnnovo.Location = new System.Drawing.Point(550, 268);
+            this.btnnovo.Name = "btnnovo";
+            this.btnnovo.Size = new System.Drawing.Size(75, 23);
+            this.btnnovo.TabIndex = 19;
+            this.btnnovo.Text = "novo";
+            this.btnnovo.UseVisualStyleBackColor = true;
+            this.btnnovo.Click += new System.EventHandler(this.btnnovo_Click);
             // 
-            // celular2text
+            // txtcelular2
             // 
-            this.celular2text.Location = new System.Drawing.Point(469, 162);
-            this.celular2text.Mask = "(99) 0000-0000";
-            this.celular2text.Name = "celular2text";
-            this.celular2text.Size = new System.Drawing.Size(100, 20);
-            this.celular2text.TabIndex = 20;
+            this.txtcelular2.Location = new System.Drawing.Point(469, 162);
+            this.txtcelular2.Mask = "(99) 0000-0000";
+            this.txtcelular2.Name = "txtcelular2";
+            this.txtcelular2.Size = new System.Drawing.Size(100, 20);
+            this.txtcelular2.TabIndex = 20;
             // 
-            // celular1text
+            // txtcelular1
             // 
-            this.celular1text.Location = new System.Drawing.Point(469, 136);
-            this.celular1text.Mask = "(99) 0000-0000";
-            this.celular1text.Name = "celular1text";
-            this.celular1text.Size = new System.Drawing.Size(100, 20);
-            this.celular1text.TabIndex = 21;
+            this.txtcelular1.Location = new System.Drawing.Point(469, 136);
+            this.txtcelular1.Mask = "(99) 0000-0000";
+            this.txtcelular1.Name = "txtcelular1";
+            this.txtcelular1.Size = new System.Drawing.Size(100, 20);
+            this.txtcelular1.TabIndex = 21;
             // 
-            // datadenasimentotext
+            // txtdata
             // 
-            this.datadenasimentotext.Location = new System.Drawing.Point(469, 214);
-            this.datadenasimentotext.Mask = "00/00/0000";
-            this.datadenasimentotext.Name = "datadenasimentotext";
-            this.datadenasimentotext.Size = new System.Drawing.Size(100, 20);
-            this.datadenasimentotext.TabIndex = 22;
-            this.datadenasimentotext.ValidatingType = typeof(System.DateTime);
+            this.txtdata.Location = new System.Drawing.Point(469, 214);
+            this.txtdata.Mask = "00/00/0000";
+            this.txtdata.Name = "txtdata";
+            this.txtdata.Size = new System.Drawing.Size(100, 20);
+            this.txtdata.TabIndex = 22;
+            this.txtdata.ValidatingType = typeof(System.DateTime);
             // 
-            // cpftext
+            // txtcpf
             // 
-            this.cpftext.Location = new System.Drawing.Point(469, 84);
-            this.cpftext.Mask = "000.000.000-00";
-            this.cpftext.Name = "cpftext";
-            this.cpftext.Size = new System.Drawing.Size(100, 20);
-            this.cpftext.TabIndex = 23;
-            this.cpftext.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox4_MaskInputRejected);
+            this.txtcpf.Location = new System.Drawing.Point(469, 84);
+            this.txtcpf.Mask = "000.000.000-00";
+            this.txtcpf.Name = "txtcpf";
+            this.txtcpf.Size = new System.Drawing.Size(100, 20);
+            this.txtcpf.TabIndex = 23;
+            this.txtcpf.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox4_MaskInputRejected);
             // 
             // frmcadastrocliente
             // 
@@ -251,28 +254,28 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.cpftext);
-            this.Controls.Add(this.datadenasimentotext);
-            this.Controls.Add(this.celular1text);
-            this.Controls.Add(this.celular2text);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtcpf);
+            this.Controls.Add(this.txtdata);
+            this.Controls.Add(this.txtcelular1);
+            this.Controls.Add(this.txtcelular2);
+            this.Controls.Add(this.btnnovo);
+            this.Controls.Add(this.btndeletar);
+            this.Controls.Add(this.btncadastrar);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.cidadetext);
+            this.Controls.Add(this.txtcidade);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.nomeclientetext);
-            this.Controls.Add(this.emailtext);
-            this.Controls.Add(this.idclientetext);
+            this.Controls.Add(this.txtnome);
+            this.Controls.Add(this.txtemail);
+            this.Controls.Add(this.txtid);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Name = "frmcadastrocliente";
-            this.Text = "clientes";
+            this.Text = "cadastro clientes";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -288,20 +291,20 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox idclientetext;
-        private System.Windows.Forms.TextBox emailtext;
-        private System.Windows.Forms.TextBox nomeclientetext;
+        private System.Windows.Forms.TextBox txtid;
+        private System.Windows.Forms.TextBox txtemail;
+        private System.Windows.Forms.TextBox txtnome;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox cidadetext;
+        private System.Windows.Forms.TextBox txtcidade;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.MaskedTextBox celular2text;
-        private System.Windows.Forms.MaskedTextBox celular1text;
-        private System.Windows.Forms.MaskedTextBox datadenasimentotext;
-        private System.Windows.Forms.MaskedTextBox cpftext;
+        private System.Windows.Forms.Button btncadastrar;
+        private System.Windows.Forms.Button btndeletar;
+        private System.Windows.Forms.Button btnnovo;
+        private System.Windows.Forms.MaskedTextBox txtcelular2;
+        private System.Windows.Forms.MaskedTextBox txtcelular1;
+        private System.Windows.Forms.MaskedTextBox txtdata;
+        private System.Windows.Forms.MaskedTextBox txtcpf;
     }
 }
