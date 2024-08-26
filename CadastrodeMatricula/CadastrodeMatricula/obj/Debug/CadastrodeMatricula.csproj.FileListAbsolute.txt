@@ -1,0 +1,10 @@
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\CadastrodeMatricula\CadastrodeMatricula\bin\Debug\CadastrodeMatricula.exe.config
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\CadastrodeMatricula\CadastrodeMatricula\bin\Debug\CadastrodeMatricula.exe
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\CadastrodeMatricula\CadastrodeMatricula\bin\Debug\CadastrodeMatricula.pdb
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\CadastrodeMatricula\CadastrodeMatricula\obj\Debug\CadastrodeMatricula.csproj.AssemblyReference.cache
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\CadastrodeMatricula\CadastrodeMatricula\obj\Debug\CadastrodeMatricula.Form1.resources
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\CadastrodeMatricula\CadastrodeMatricula\obj\Debug\CadastrodeMatricula.Properties.Resources.resources
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\CadastrodeMatricula\CadastrodeMatricula\obj\Debug\CadastrodeMatricula.csproj.GenerateResource.cache
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\CadastrodeMatricula\CadastrodeMatricula\obj\Debug\CadastrodeMatricula.csproj.CoreCompileInputs.cache
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\CadastrodeMatricula\CadastrodeMatricula\obj\Debug\CadastrodeMatricula.exe
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\CadastrodeMatricula\CadastrodeMatricula\obj\Debug\CadastrodeMatricula.pdb
