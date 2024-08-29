@@ -1,0 +1,11 @@
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\catalogofilmes\catalogofilmes\bin\Debug\catalogofilmes.exe.config
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\catalogofilmes\catalogofilmes\bin\Debug\catalogofilmes.exe
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\catalogofilmes\catalogofilmes\bin\Debug\catalogofilmes.pdb
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\catalogofilmes\catalogofilmes\obj\Debug\catalogofilmes.csproj.AssemblyReference.cache
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\catalogofilmes\catalogofilmes\obj\Debug\catalogofilmes.Properties.Resources.resources
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\catalogofilmes\catalogofilmes\obj\Debug\catalogofilmes.csproj.GenerateResource.cache
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\catalogofilmes\catalogofilmes\obj\Debug\catalogofilmes.csproj.CoreCompileInputs.cache
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\catalogofilmes\catalogofilmes\obj\Debug\catalogofilmes.exe
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\catalogofilmes\catalogofilmes\obj\Debug\catalogofilmes.pdb
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\catalogofilmes\catalogofilmes\obj\Debug\catalogofilmes.frmpagamento.resources
+\\info\Informática\INF 07\Jessé\Linguagem de Programação para Desktop\catalogofilmes\catalogofilmes\obj\Debug\catalogofilmes.frmcatalogo.resources
